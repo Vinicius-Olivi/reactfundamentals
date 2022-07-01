@@ -3,7 +3,12 @@
 export function Post(props) {
     return (
     <div>
-    <strong>{props.author}</strong><p>{props.content}</p>
+    <h1>teste</h1>
+    <h2>testando</h2>
+    <h1>teste</h1>
+    <h2>testando</h2>
+    <h1>teste</h1>
+    <h2>testando</h2>
     </div>
     )
 }
