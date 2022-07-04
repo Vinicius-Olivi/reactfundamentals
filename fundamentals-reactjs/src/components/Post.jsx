@@ -1,13 +1,14 @@
 import styles from './Post.module.css';
 import mah from '../assets/mah.svg'
 import { Comment } from './Comment';
+import { Avatar } from './Avatar';
 
 export function Post() {
     return (
     <article  className={styles.post}>
         <header>
             <div className={styles.author}>
-                <img className={styles.avatar} src={mah}  />
+                <Avatar src={mah}/>
             <div className={styles.authorInfo}>
                 <strong>Mah Olivi</strong>
                 <span>QA Engineer</span>
